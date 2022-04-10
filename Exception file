@@ -1,0 +1,31 @@
+Angel1
+package exception;
+
+public class Demo {
+	
+	public static void main(String[] args) {
+		
+		String str=null;
+		
+		try {
+			System.out.println(str.length());
+			
+			System.out.println("End of program---This can not be printed");
+		}
+		
+		catch(NullPointerException e){
+			
+			System.out.println("Null Ponter Exception and it is handled");
+		}
+		
+		System.out.println("---End Pf Program----");
+		System.out.println("Only statement which is present in catch block will be printed");
+		
+		
+		
+		
+	
+		
+	}
+
+}
